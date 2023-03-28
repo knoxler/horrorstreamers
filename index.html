@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HorrorStreamers.com</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+
+<body>
+    <main>
+
+        <header>
+                
+            <div class="main-heading">
+                <h1><span id="Welcome to Horror Streamers.com">Welcome to Horror Streamers.com!</span></h1> 
+                <!--<p>This is a paragraph of text. It is enclosed within paragraph tags and can contain text, links,
+                    images, and other HTML elements.</p>-->
+            </div>
+            <a href="https://www.youtube.com/@Channel13Horror/featured">
+                <img src="C:\Users\ktjhu\OneDrive\Desktop\knox_ch13_edit.png" alt="ch13" width="176" height="176" class="profile-pic">
+             </a>
+             
+        </header>
+        <!--Only for fetured streamer-->
+        <style>
+            #text-container {
+                border: 5px solid crimson;
+                font-size: 40px;
+                max-width:600px;
+                padding: 5px;
+                text-align: center;
+                margin: auto;
+                font-family: Lucida Handwriting;
+                background-color: rgb(59, 61, 63);
+                color: crimson;
+                background-size: 100px 100px;
+
+            }
+        </style>
+
+        <div id="text-container"></div>
+
+        <script>
+            // Define an array of texts
+            const texts = ["BreakfastAtNoon", "CarltonTheWhite", "CartoonHeadGeorge", "BolognaBoy", "Jamgamer1984",
+             "Knoxler", "xDIANAx", "TheJuggernaut6789","DreamWarrior","Codenamepower","Fat_Tonii","scaredymat","Guria_Gaming",
+              "TheAllieGShow","cptn_sumi","joker_king_1"
+            ];
+
+            // Function to set a random text in the container
+            function setRandomText() {
+                const container = document.getElementById("text-container");
+                const randomIndex = Math.floor(Math.random() * texts.length);
+                container.innerHTML = texts[randomIndex];
+            }
+
+            // Set an initial text on page load
+            setRandomText();
+
+            // Change the text every 24 hours
+            setInterval(setRandomText, 24 * 120);
+        </script>
+
+
+
+        <a href="https://www.twitch.tv/thejuggernaut6789" class="btn">Thejuggernaut6789</a>
+        <a href="https://www.twitch.tv/buttcheekbeau23" class="btn">buttcheekbeau23</a> <!--To make a link-->
+        <a href=" https://twitch.tv/CartoonHeadGeorge" class="btn">CartoonHeadGeorge</a>
+        <a href="https://twitch.tv/DreamWarrior" class="btn">DreamWarrior</a>
+        <a href="https://twitch.tv/Codenamepower" class="btn">Codenamepower</a>
+        <a href=" https://twitch.tv/BreakfastAtNoon" class="btn">BreakfastAtNoon</a>
+        <a href="https://www.twitch.tv/knoxler" class="btn">Knoxler</a>
+        <a href="http://twitch.tv/CarltonTheWhite" class="btn">CarltonTheWhite</a>
+        <a href="https://www.twitch.tv/bolognab0y" class="btn">BolognaBoy</a>
+        <a href="https://www.twitch.tv/Fat_Tonii" class="btn">Fat_Tonii</a>
+        <a href="https://www.twitch.tv/jamgamer1984" class="btn">Jamgamer1984</a>
+        <a href="https://www.twitch.tv/scaredymat" class="btn">scaredymat</a>
+        <a href="https://www.twitch.tv/Guria_Gaming" class="btn">Guria_Gaming</a>
+        <a href="https://www.twitch.tv/TheAllieGShow" class="btn">TheAllieGShow</a>
+        <a href="https://www.twitch.tv/joker_king_1" class="btn">joker_king_1</a>
+        <a href="https://www.twitch.tv/cptn_sumi" class="btn">cptn_sumi</a>
+        <a href="https://www.twitch.tv/cptn_sumi" class="btn">cptn_sumi</a>
+        <a href="https://www.twitch.tv/cptn_sumi" class="btn">cptn_sumi</a>
+        <a href="https://www.twitch.tv/cptn_sumi" class="btn">cptn_sumi</a>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
