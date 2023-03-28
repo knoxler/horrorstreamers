@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+header {
+    
+    
+  }
+  
+  .main-heading{
+    border: 5px solid crimson;
+    max-width: 800px;
+    padding: 5px ;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family:Lucida Handwriting ;
+    background-color: rgb(59, 61, 63);
+    color:crimson;
+    background-size: 100px 100px;
+    
+  }
+  
+  
+  .main-heading h1{
+    font-size: 40px;
+    
+  }
+
+  
+
+
+
+
+
+h2 {
+    margin: 0;
+    
+}
+
+body{
+    
+    font-family:sans-serif; /* font */
+    background-image:url("https://wallpaperset.com/w/full/3/8/3/375411.jpg");/*backround image*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn { /*button class*/
+    display: inline-block;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.btn:hover{ /*changes hover actions*/
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
